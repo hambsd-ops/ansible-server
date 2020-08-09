@@ -1,0 +1,6 @@
+---
+- name: disable sndiod
+  service:
+    name: sndiod
+    enabled: no
+    state: stopped
